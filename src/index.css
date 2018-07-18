@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.box{
+  text-align: center;
+  width: 300px;
+  background: #ccc;
+}
+
+.content{
+  display: inline-block;
+  text-align: left;
+}
