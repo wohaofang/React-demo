@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import Board from './Board'
+import LeftIndex from '../left/index'
 
+let gameCss = {
+  'width': '1200px',
+  'margin': '0 auto',
+  'background': '#ccc'
+}
 
 class Game1 extends React.Component {
     constructor(props) {
@@ -66,7 +72,7 @@ class Game1 extends React.Component {
       }
   
       return (
-        <div className="game">
+        <div className="game" style={gameCss}>
           <div className="game-board">
             <Board
               squares={current.squares}
@@ -82,6 +88,7 @@ class Game1 extends React.Component {
             <div>{status}</div>
             <ol>{moves}</ol>
           </div>
+          <LeftIndex/>
         </div>
       );
     }

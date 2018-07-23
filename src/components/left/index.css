@@ -1,0 +1,68 @@
+.top{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.bottom{
+
+}
+
+.bottomList{
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+}
+
+.dengLu{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: red;
+}
+
+.dengLu>div{
+    margin:  0  10px;
+}
+
+
+
+
+.show{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.34);;
+}
+
+.show .sub{
+    color: #333;
+    font-size: 22px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 400px;
+    background: #fff;
+}
+
+.zhanghao{
+    margin: 20px 0 0 50px;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn>div{
+    margin: 20px;
+}
