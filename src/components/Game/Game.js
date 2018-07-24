@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Board from './Board'
 import LeftIndex from '../left/index'
 
+import CaiLeft from '../Cai/left'
+
 let gameCss = {
   'width': '1200px',
   'margin': '0 auto',
@@ -72,6 +74,7 @@ class Game1 extends React.Component {
       }
   
       return (
+        <div>
         <div className="game" style={gameCss}>
           <div className="game-board">
             <Board
@@ -89,6 +92,8 @@ class Game1 extends React.Component {
             <ol>{moves}</ol>
           </div>
           <LeftIndex/>
+        </div>
+        <CaiLeft/>
         </div>
       );
     }

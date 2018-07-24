@@ -8,7 +8,7 @@ import './index.css'
 export default class Bottom extends Component{
 
     render(){
-        console.log(this.props.arr)
+        // console.log(this.props.arr)
         return(
             <div className="bottom">
                 <div className="bottomList" onClick={this.props.fn}>
