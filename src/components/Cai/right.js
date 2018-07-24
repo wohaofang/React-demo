@@ -35,13 +35,13 @@ export default class CaiRight extends Component{
                     */}
 
                     <div className="top">
-                        
+
                     </div>
 
                     <div className="wenz">
                         {
                             this.state.arr.map((v,index)=>{
-                                return (<div className="zi" key={index}> {v}</div>)
+                                return (<div className="zi" key={index} onClick={this}> {v}</div>)
                             })
                         }
                     </div> 
