@@ -39,7 +39,7 @@ export default class CaiRight extends Component{
     render(){
         // console.log(this.state.arr)
         return(
-            <div  className="right" onClick={this.toArr}>
+            <div  className="right">
                     {/*  
                         {this.props.data.arr.map((v,index)=>{
                             return (<div key={index}>{v.name}</div>)
@@ -50,7 +50,7 @@ export default class CaiRight extends Component{
                         {this.state.name}
                     </div>
                     <div className="box">
-                        <button className="button"> 清除 </button>
+                        <button className="button" > 清除 </button>
                         <button className="button"> 确认 </button>
                     </div>
 
@@ -58,7 +58,7 @@ export default class CaiRight extends Component{
 
                     </div>
 
-                    <div className="wenz">
+                    <div className="wenz" onClick={this.toArr}>
                         {
                             this.state.arr.map((v,index)=>{
                                 return (<div className="zi" key={index} onClick={this.pick.bind(this,v)}> {v}</div>)
